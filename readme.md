@@ -1,4 +1,10 @@
-# Cara Penggunaan
+# UAS DDP SEM 1 
+## Cara Instalasi
+Step 1:
+```
+git clone https://github.com/gertoy837/DDP-1-voltique.git
+```
+## Cara Penggunaan
 
 Buka di terminal
 Step 1:
