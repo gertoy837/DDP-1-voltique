@@ -4,12 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Django Project</title>
-    <link href="{% static '/static/css/output.css' %}" rel="stylesheet">
+    <title>Voltique</title>
+    <link href="{% static '/css/output.css' %}" rel="stylesheet">
+    {% comment %} <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" /> {% endcomment %}
 </head>
 <body>
-    <h1 class="text-3xl font-bold underline">
-        Hello, Tailwind CSS!
-    </h1>
+    <header>
+        {% include "./components/header.html" %}
+    </header>
+    <main>
+        {% include "./components/jumbotron.html" %}
+    </main>
+
+    <script src="{% static "js/script.js" %}"></script>
 </body>
 </html>
